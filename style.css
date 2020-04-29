@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(Images/BG_1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  margin-left: 65%;
+  padding-top: 10%;
+}
+
+.container h2 {
+  margin-top: 100px;
+  font-size: 50px;
+  font-weight: 500;
+  color: #afc67b;
+}
+
+.container h1 {
+  font-size: 75px;
+  color: #afc67b;
+  font-weight: 900;
+}
+
+.container a {
+  display: inline-block;
+  margin-top: 100px;
+  text-decoration: none;
+  color: #afc67b;
+  padding: 20px 40px;
+  background-color: rgba(137, 177, 127, 0.4);
+  border: 2px solid #a5a4a4;
+  font-size: 50px;
+  transition: 0.3s;
+}
+
+.container a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid #afc67b;
+}
+
+.side-nav {
+  width: 350px;
+  height: 100vh;
+  position: fixed;
+  right: -350px;
+  top: 0;
+  background: rgb(255, 255, 255);
+  z-index: 2;
+  transition: 0.5s;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 50px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #afc67b;
+}
+
+.hamburger {
+  width: 50px;
+  position: fixed;
+  right: 65px;
+  top: 35px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.mission-section {
+  background-color: #212121;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+
+.mission-section-img {
+  flex-basis: 50%;
+}
+
+.mission-section-img img {
+  width: 100%;
+  height: 600px;
+}
+
+.mission-section-text {
+  flex-basis: 50%;
+}
+
+.mission-section-text h2 {
+  margin-bottom: 20px;
+  color: #afc67b;
+  font-family: "Gochi Hand", cursive;
+}
+
+.mission-section-text p {
+  color: #a5a4a4;
+}
+
+.transition-section {
+  background-color: #4e5342;
+}
+
+.transition-section .items {
+  display: flex;
+  max-width: 1600px;
+  margin: auto;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.transition-section .items .item {
+  margin-top: 50px;
+}
+
+.transition-section .items .item h2 {
+  color: rgb(190, 190, 190);
+  margin: 10px 0px;
+}
+
+.transition-section .items .item p {
+  color: #a5a4a4;
+  margin-bottom: 40px;
+}
+
+.grid-menu .cards {
+  display: grid;
+  justify-content: center;
+  padding: 100px;
+  grid-template-columns: repeat(4, 0fr);
+  background-color: #212121;
+}
+
+.grid-menu .cards .card {
+  height: 274px;
+  width: 270px;
+  background-color: rgba(62, 65, 54, 0.9);
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.grid-menu .cards .grid-header {
+  background-color: #4e534296;
+  height: 200px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: center;
+}
+
+.grid-menu .cards .grid-header h1 {
+  color: #afc67b;
+  font-family: "Gochi Hand", cursive;
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+.grid-menu .cards .grid-header h2 {
+  color: #a5a4a4;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.grid-menu .cards .card h2 {
+  color: #afc67b;
+  font-family: "Gochi Hand", cursive;
+  font-size: 25px;
+}
+
+.grid-menu .cards .card p {
+  color: #a5a4a4;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.grid-menu .cards .card span {
+  color: #afc67b;
+  font-family: "Gochi Hand", cursive;
+  font-size: 20px;
+}
+
+.simple-section {
+  height: 275px;
+  background-color: #4e5342;
+}
+
+.simple-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.simple-section div img {
+  width: 94px;
+  margin-bottom: 20px;
+}
+
+.simple-section div h2 {
+  color: #afc67b;
+  font-family: "Gochi Hand", cursive;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.simple-section div p {
+  color: #a5a4a4;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.discover-section {
+  height: 1730px;
+  background-image: url(Images/BG_2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.menu-grid-2 {
+  display: grid;
+  justify-content: center;
+  padding: 50px;
+  transform: translateY(400px);
+  grid-template-columns: repeat(2, 0fr);
+  background-color: rgba(62, 65, 54, 0.9);
+}
+
+.menu-grid-2 .item {
+  height: 150px;
+  width: 700px;
+  background-color: none;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.menu-grid-2 .item img {
+  height: 81px;
+  padding-right: 10px;
+}
+
+.menu-grid-2 .item h2 {
+  color: #fff;
+  font-family: "Gochi Hand", cursive;
+  font-size: 20px;
+  padding: 8px 0px;
+}
+
+.menu-grid-2 .item p {
+  color: #a5a4a4;
+  font-size: 15px;
+}
+
+.menu-grid-2 .grid-header {
+  height: 200px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+.menu-grid-2 .grid-header h1 {
+  color: #fff;
+  font-family: "Gochi Hand", cursive;
+  padding-top: 50px;
+  font-size: 60px;
+}
+
+.menu-grid-2 .grid-header h2 {
+  color: #a5a4a4;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.book-here {
+  height: 550px;
+  background-color: #212121;
+}
+
+.book-here-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 0fr);
+}
+
+.book-here-grid .item {
+  height: 150px;
+  width: 300px;
+  background-color: none;
+  font-size: 30px;
+  display: block;
+  text-align: left;
+  color: #fff;
+  font-size: 20px;
+}
+
+.book-here-grid .item select,
+input {
+  width: 200px;
+  height: 30px;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 15px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.book-here-grid .item select:focus {
+  background-color: #fff;
+  color: #222;
+}
+
+.book-here-grid .item label {
+  display: block;
+  margin: 20px 0px 20px 50px;
+}
+
+.book-here-grid .grid-header {
+  height: 100px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  color: #fff;
+}
+
+.book-here-grid .grid-header h1 {
+  color: #fff;
+  font-family: "Gochi Hand", cursive;
+  font-size: 60px;
+  padding-top: 10px;
+}
+
+.book-here-grid .grid-submit {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  margin-left: -50px;
+}
+
+.book-here-grid .grid-submit input {
+  margin-top: 30px;
+  height: 50px;
+  width: 300px;
+  border-radius: 25px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
+.book-here-grid .grid-submit input:hover {
+  cursor: pointer;
+  color: #222;
+  background-color: #fff;
+  font-weight: 900;
+}
+
+.picture-section {
+  height: 864px;
+  background-image: url(Images/BG_3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.thank-you-section {
+  height: 300px;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.thank-you-section p {
+  width: 600px;
+  color: #afc67b;
+  font-size: 15px;
+}
+
+.thank-you-section h2 {
+  color: #afc67b;
+  font-family: "Gochi Hand", cursive;
+  margin: 20px 0px;
+}
+
+.thank-you-section .icons a {
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    margin-left: 20%;
+  }
+
+  .mission-section {
+    height: 300px;
+  }
+
+  .mission-section-img img {
+    height: 300px;
+  }
+
+  .transition-section .items {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .grid-menu .cards {
+    grid-template-columns: repeat(2, 0fr);
+  }
+
+  .grid-menu .cards .grid-header {
+    grid-column-end: 3;
+  }
+
+  .simple-section div {
+    text-align: center;
+  }
+
+  .menu-grid-2 {
+    grid-template-columns: repeat(1, 0fr);
+  }
+
+  .menu-grid-2 .grid-header {
+    grid-column-end: 2;
+  }
+
+  .book-here-grid {
+    grid-template-columns: repeat(2, 0fr);
+  }
+
+  .book-here-grid .grid-header,
+  .book-here-grid .grid-submit {
+    grid-column-end: 3;
+  }
+
+  .book-here {
+    height: 700px;
+  }
+
+  .thank-you-section p {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .book-here-grid {
+    grid-template-columns: repeat(1, 0fr);
+  }
+
+  .book-here-grid .grid-header,
+  .book-here-grid .grid-submit {
+    grid-column-end: 2;
+  }
+
+  .book-here {
+    height: 1150px;
+  }
+
+  .container {
+    margin-left: 10%;
+  }
+
+  .container a {
+    padding: 5px 5px;
+  }
+}

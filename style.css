@@ -517,6 +517,10 @@ input {
     max-width: 175px;
   }
 
+  .menu-grid-2 .item {
+    width: 350px;
+  }
+
   .thank-you-section p {
     width: 300px;
   }

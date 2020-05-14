@@ -490,10 +490,6 @@ input {
   }
 }
 @media screen and (max-width: 450px) {
-  .hamburger {
-    right: 200px;
-  }
-
   .container h2 {
     font-size: 30px;
   }

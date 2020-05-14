@@ -489,3 +489,39 @@ input {
     padding: 5px 5px;
   }
 }
+@media screen and (max-width: 450px) {
+  .hamburger {
+    right: 200px;
+  }
+
+  .container h2 {
+    font-size: 30px;
+  }
+
+  .container h1 {
+    font-size: 50px;
+  }
+
+  .container a {
+    font-size: 40px;
+  }
+
+  .mission-section-img img {
+    display: none;
+  }
+
+  .mission-section-text {
+    margin-top: 50px;
+    flex-basis: 100%;
+  }
+
+  .grid-menu .cards .card,
+  .grid-menu .cards .card img {
+    max-height: 175px;
+    max-width: 175px;
+  }
+
+  .thank-you-section p {
+    width: 300px;
+  }
+}
